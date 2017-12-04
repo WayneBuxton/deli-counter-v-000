@@ -18,6 +18,7 @@ end
 def now_serving(katz_deli)
   if katz_deli.length == 0
     puts "There is nobody waiting to be served!"
-  else %w katz_deli
+  else katz_deli
+    puts %w(katz_deli)
   end
 end
