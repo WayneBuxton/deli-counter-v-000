@@ -19,6 +19,6 @@ def now_serving(katz_deli)
   if katz_deli.length == 0
     puts "There is nobody waiting to be served!"
   else katz_deli
-    puts %w("Currently serving Logan.")
+    puts %w << ("Currently serving Logan.")
   end
 end
